@@ -7,6 +7,11 @@ public class XML extends Document {
         super(continut);
     }
 
+    public void doSomethingElse()
+    {
+        System.out.println("also NO" );
+    }
+
     @Override
     public String[] analizeaza() {
         String[] res = new String[continut.length];
