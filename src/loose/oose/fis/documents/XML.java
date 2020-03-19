@@ -9,7 +9,7 @@ public class XML extends Document {
 
     public void doSomethingElse()
     {
-        System.out.println("also NO" );
+        System.out.println("also NO");
     }
 
     @Override
